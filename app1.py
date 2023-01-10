@@ -55,3 +55,7 @@ def prediction():
 @app.route('/ping', methods=['GET'])
 def ping():
     return "Jai Shri Ram!!"
+
+@app.route('/ping1', methods=['GET'])
+def ping1():
+    return "Jai Shri Krishna!!"
